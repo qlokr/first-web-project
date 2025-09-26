@@ -1,0 +1,63 @@
+            
+        
+               .container {
+
+            width: 350px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+            align-items: right;
+            position: fixed;
+            right: 0;
+            top: 0;
+            background-color: rgb(39, 38, 36);
+            border-radius: 10px;
+            border: solid 1px #020202;
+            padding: 20px;
+        }
+
+        form {
+
+
+
+            border-radius: 100px;
+            background-color: rgb(39, 38, 36);
+            
+            
+        }
+
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;  /*  تحدد مساحة او حجم الغرض*/              
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #000000; /*تحدد لون الحواف*/
+            border-radius: 20px;    /* تحدد شكل الحواف*/
+            box-sizing: border-box;
+            background-color: rgb(39, 38, 36);
+            color: rgb(255, 248, 248);
+            
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #1d1f20;
+            color: rgb(90, 53, 108);
+            padding: 20px 20px;
+            margin: 8px 0;
+            flex-wrap: wrap;
+            gap: 10px;
+
+            border: 1px solid #000000;
+            border-radius: 29px;
+            cursor:pointer;
+            
+        }
+
+       .container img {
+            width: 310px;
+            height: auto;
+        }
+
+
